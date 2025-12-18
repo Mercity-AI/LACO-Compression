@@ -1,0 +1,45 @@
+## OS / Editor
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+.history/
+.cursor/
+
+## Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+## Environments
+env/
+venv/
+.env
+.venv/
+.python-version
+
+## Notebooks
+.ipynb_checkpoints/
+
+## Model / checkpoint artifacts
+*.bin
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+
+## Hugging Face + pruned model outputs
+qwen3-8b-laco-pruned/
+hub/
+
+
