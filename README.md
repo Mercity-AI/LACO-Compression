@@ -1,7 +1,9 @@
 ## LaCo Pruning for Qwen3-8B
 
+READ OUR FULL RESEARCH LOG AND FINDINGS HERE: [LaCO Research Log](https://www.mercity.ai/blog-post/laco-layer-pruning-for-qwen3-8b-our-research-log/)
+
 This repo contains a script to **prune/compress the Qwen3-8B model using LaCo-style layer merging**, targeting an A6000 (48 GB) GPU setup.  
-It is a practical implementation inspired by **LaCo: Efficient Layer-wise Compression of Visual Tokens for Multimodal Large Language Models** \[[arXiv:2507.02279](https://arxiv.org/abs/2507.02279)\].
+It is a practical implementation inspired by **LaCo: Large Language Model Pruning via Layer Collapse** \([https://arxiv.org/abs/2507.02279](https://arxiv.org/pdf/2402.11187))\].
 
 For reference, see also the **official LaCo implementation for LLMs**:  
 - GitHub: [`yangyifei729/LaCo`](https://github.com/yangyifei729/LaCo)
